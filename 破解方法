@@ -31,7 +31,7 @@ https://pan.baidu.com/s/1LcXvupL00XTU-HHE1J6ynA
 配置文件修改已经不在bin目录下直接修改，而是通过pycharm修改！
 
 进入到项目界面后，点击Pycharm最上面的菜单栏中的 “Help” -> “Edit Custom VM Options …”。 
-
+注意下面一行是冒号. 不用管其他是=号
 .​
 
 在打开的vmoptions编辑窗口末行添加：-javaagent:你pycharm的安装目录\jetbrains-agent.jar
